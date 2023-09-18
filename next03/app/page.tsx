@@ -12,6 +12,8 @@ export default function Home() {
       <p>
         <Link href={"/users"}>Users</Link>
       </p>
+      <Link href={"/todos"}>Todos</Link>
+      <p style={{ color: "red" }}></p>
     </main>
   );
 }
